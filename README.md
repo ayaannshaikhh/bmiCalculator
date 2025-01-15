@@ -28,14 +28,14 @@ This program calculates the Body Mass Index (BMI) of adults aged 18 or older. It
 1. **Compile the Program**:
    Use a C compiler to compile the program. For example, using GCC:
    ```bash
-   gcc -o bmi_calculator bmi_calculator.c -lm
+   gcc -o bmicalculator bmicalculator.c -lm
    ```
 
    The `-lm` flag is required to link the math library.
 
 2. **Run the Program**:
    ```bash
-   ./bmi_calculator
+   ./bmicalculator
    ```
 
 3. **Input Data**:
