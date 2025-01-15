@@ -1,7 +1,5 @@
 # Adult BMI Calculator
 
-**Created by Ayaan Shaikh**
-
 This program calculates the Body Mass Index (BMI) of adults aged 18 or older. It supports both metric and US customary units for input and provides an interpretation of the calculated BMI value based on standard BMI categories.
 
 ---
