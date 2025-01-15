@@ -67,8 +67,6 @@ bmi = weightKg / pow (heightMeters, 2);
         }
     } while (heightInches <= 0);
 
-printf("%f", weightLb);
-printf("%f", heightInches);
 bmi = ((weightLb / pow (heightInches, 2))) * 703;
 }
 
