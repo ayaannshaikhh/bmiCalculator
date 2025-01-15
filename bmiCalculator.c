@@ -49,7 +49,7 @@ if (choice == 1) {
         }
     } while (heightMeters <= 0);
 
-bmi = weightKg / (heightMeters * heightMeters);
+bmi = weightKg / pow (heightMeters, 2);
 
 } else if (choice == 2) {
     do {
@@ -69,7 +69,7 @@ bmi = weightKg / (heightMeters * heightMeters);
 
 printf("%f", weightLb);
 printf("%f", heightInches);
-bmi = ((weightLb / (heightInches * heightInches))) * 703;
+bmi = ((weightLb / pow (heightInches, 2))) * 703;
 }
 
 /*
